@@ -1,0 +1,47 @@
+html, body {margin: 0; background: #ffffff; font-family: Arial;}
+ul {padding-left: 0; margin: 0;}
+li {list-style-type: none;}
+a {color: #000000;}
+  button {background: #ffffff; border: 1px solid #000000; padding: 10px 40px; font-size: 20px; font-weight: bold; text-transform: uppercase;}
+  p {text-align: center; line-height: 1.5; margin: 0;}
+  .gifivision {
+      margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image: url('https://media.giphy.com/media/fXfJs6ZV0Nwc0/giphy.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	left: 0;
+	top: 0;
+  }
+  
+  .gifivision.gray {-webkit-filter: grayscale(1);
+	filter: grayscale(1); }
+  
+ .gifivision.blur {
+ -webkit-filter: blur(8px);
+  filter: blur(8px);
+ 
+ }
+ 
+  .gifivision.hue {
+  	-webkit-filter: hue-rotate(180deg);
+	filter: hue-rotate(180deg);
+  
+  }
+ 
+ ul {bottom: 1%; position: fixed; left: 1%; text-transform: uppercase; -webkit-filter: none; filter: none;}
+ ul li {float: left; margin-right: 10px; background: white; padding: 10px; font-weight: bold; cursor: pointer;}
+.about {display: none; background: white;  position: absolute; top: 50%; padding: 10px;}
+.about.show {display: block;}
+button  {font-size: 16px; background: white; z-index: 10; position: fixed; right: 1%; bottom: 1%; cursor: pointer; border: none; padding: 10px;}
+button:focus {outline: 0;}
+.smil #ie-probz {display: none;}
+.no-smil #ie-probz {position: fixed; background: #ffffff; top: 1%; left: 0%; padding: 10px;}
+.powered {position: absolute; top: 1%; right: 1%;}
